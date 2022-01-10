@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Pandora_Crud::pandora" title="Pandora" translate="title" module="Pandora_Crud" sortOrder="91" dependsOnModule="Pandora_Crud" resource="Pandora_Crud::pandora"/>
+        <add id="Pandora_Crud::pandora_crud" title="TOPICS" translate="title" module="Pandora_Crud" sortOrder="10" parent="Pandora_Crud::pandora" action="crud" resource="Pandora_Crud::pandora"/>
+    </menu>
+</config>
